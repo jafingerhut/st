@@ -20,3 +20,23 @@
     (catch Exception e
       (r/pst e 40)
       e)))
+
+
+(defn throwme [x]
+  (throw (Exception. "Thrown")))
+
+
+(defn mapvit []
+  (mapv throwme [1 2 3]))
+
+
+(comment
+
+(require '[st.core :as c])
+(c/do-it c/m1)
+
+(c/mapvit)
+(def e1 *e)
+e1
+
+)

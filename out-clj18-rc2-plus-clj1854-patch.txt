@@ -29,7 +29,7 @@ user=> (c/do-it c/m1)
 :i     It is :i !!!
 Exception Don't like :i
 	st.core/mypre (core.clj:11)
-	st.core/mypre (core.clj:-1)
+	st.core/mypre (core.clj:9)
 	clojure.core/map/fn--4781 (core.clj:2646)
 	clojure.lang.LazySeq.sval (LazySeq.java:40)
 	clojure.lang.LazySeq.seq (LazySeq.java:49)
@@ -37,9 +37,9 @@ Exception Don't like :i
 	clojure.lang.LazilyPersistentVector.create (LazilyPersistentVector.java:44)
 	clojure.core/vec (core.clj:376)
 	clojure.walk/walk (walk.clj:45)
-	clojure.walk/walk (walk.clj:-1)
+	clojure.walk/walk (walk.clj:35)
 	st.core/mypre (core.clj:13)
-	st.core/mypre (core.clj:-1)
+	st.core/mypre (core.clj:9)
 	clojure.core/map/fn--4781 (core.clj:2648)
 	clojure.lang.LazySeq.sval (LazySeq.java:40)
 	clojure.lang.LazySeq.seq (LazySeq.java:49)
@@ -47,14 +47,14 @@ Exception Don't like :i
 	clojure.core/seq--4352 (core.clj:137)
 	clojure.core.protocols/seq-reduce (protocols.clj:24)
 	clojure.core.protocols/fn--6734 (protocols.clj:75)
-	clojure.core.protocols/fn--6734 (protocols.clj:-1)
+	clojure.core.protocols/fn--6734 (protocols.clj:75)
 	clojure.core.protocols/fn--6680/G--6675--6693 (protocols.clj:13)
 	clojure.core/reduce (core.clj:6547)
 	clojure.core/into (core.clj:6612)
 	clojure.walk/walk (walk.clj:49)
-	clojure.walk/walk (walk.clj:-1)
+	clojure.walk/walk (walk.clj:35)
 	st.core/mypre (core.clj:13)
-	st.core/mypre (core.clj:-1)
+	st.core/mypre (core.clj:9)
 	clojure.core/map/fn--4781 (core.clj:2646)
 	clojure.lang.LazySeq.sval (LazySeq.java:40)
 	clojure.lang.LazySeq.seq (LazySeq.java:49)
@@ -62,9 +62,9 @@ Exception Don't like :i
 	clojure.lang.LazilyPersistentVector.create (LazilyPersistentVector.java:44)
 	clojure.core/vec (core.clj:376)
 	clojure.walk/walk (walk.clj:45)
-	clojure.walk/walk (walk.clj:-1)
+	clojure.walk/walk (walk.clj:35)
 	st.core/mypre (core.clj:13)
-	st.core/mypre (core.clj:-1)
+	st.core/mypre (core.clj:9)
 	clojure.core/map/fn--4781 (core.clj:2648)
 	clojure.lang.LazySeq.sval (LazySeq.java:40)
 	clojure.lang.LazySeq.seq (LazySeq.java:49)
@@ -76,7 +76,7 @@ Exception Don't like :i
    :at [st.core$mypre invokeStatic "core.clj" 11]}]
  :trace
  [[st.core$mypre invokeStatic "core.clj" 11]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2646]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -84,9 +84,9 @@ Exception Don't like :i
   [clojure.lang.LazilyPersistentVector create "LazilyPersistentVector.java" 44]
   [clojure.core$vec invokeStatic "core.clj" 376]
   [clojure.walk$walk invokeStatic "walk.clj" 45]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2648]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -94,14 +94,14 @@ Exception Don't like :i
   [clojure.core$seq__4352 invokeStatic "core.clj" 137]
   [clojure.core.protocols$seq_reduce invokeStatic "protocols.clj" 24]
   [clojure.core.protocols$fn__6734 invokeStatic "protocols.clj" 75]
-  [clojure.core.protocols$fn__6734 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6734 invoke "protocols.clj" 75]
   [clojure.core.protocols$fn__6680$G__6675__6693 invoke "protocols.clj" 13]
   [clojure.core$reduce invokeStatic "core.clj" 6547]
   [clojure.core$into invokeStatic "core.clj" 6612]
   [clojure.walk$walk invokeStatic "walk.clj" 49]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2646]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -109,9 +109,9 @@ Exception Don't like :i
   [clojure.lang.LazilyPersistentVector create "LazilyPersistentVector.java" 44]
   [clojure.core$vec invokeStatic "core.clj" 376]
   [clojure.walk$walk invokeStatic "walk.clj" 45]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2648]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -119,18 +119,18 @@ Exception Don't like :i
   [clojure.lang.RT next "RT.java" 688]
   [clojure.core$next__4336 invokeStatic "core.clj" 64]
   [clojure.core.protocols$fn__6751 invokeStatic "protocols.clj" 168]
-  [clojure.core.protocols$fn__6751 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6751 invoke "protocols.clj" 124]
   [clojure.core.protocols$fn__6706$G__6701__6715 invoke "protocols.clj" 19]
   [clojure.core.protocols$seq_reduce invokeStatic "protocols.clj" 31]
   [clojure.core.protocols$fn__6734 invokeStatic "protocols.clj" 75]
-  [clojure.core.protocols$fn__6734 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6734 invoke "protocols.clj" 75]
   [clojure.core.protocols$fn__6680$G__6675__6693 invoke "protocols.clj" 13]
   [clojure.core$reduce invokeStatic "core.clj" 6547]
   [clojure.core$into invokeStatic "core.clj" 6612]
   [clojure.walk$walk invokeStatic "walk.clj" 49]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2646]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -138,9 +138,9 @@ Exception Don't like :i
   [clojure.lang.LazilyPersistentVector create "LazilyPersistentVector.java" 44]
   [clojure.core$vec invokeStatic "core.clj" 376]
   [clojure.walk$walk invokeStatic "walk.clj" 45]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2648]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -148,18 +148,18 @@ Exception Don't like :i
   [clojure.lang.RT next "RT.java" 688]
   [clojure.core$next__4336 invokeStatic "core.clj" 64]
   [clojure.core.protocols$fn__6751 invokeStatic "protocols.clj" 168]
-  [clojure.core.protocols$fn__6751 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6751 invoke "protocols.clj" 124]
   [clojure.core.protocols$fn__6706$G__6701__6715 invoke "protocols.clj" 19]
   [clojure.core.protocols$seq_reduce invokeStatic "protocols.clj" 31]
   [clojure.core.protocols$fn__6734 invokeStatic "protocols.clj" 75]
-  [clojure.core.protocols$fn__6734 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6734 invoke "protocols.clj" 75]
   [clojure.core.protocols$fn__6680$G__6675__6693 invoke "protocols.clj" 13]
   [clojure.core$reduce invokeStatic "core.clj" 6547]
   [clojure.core$into invokeStatic "core.clj" 6612]
   [clojure.walk$walk invokeStatic "walk.clj" 49]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2646]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -167,9 +167,9 @@ Exception Don't like :i
   [clojure.lang.LazilyPersistentVector create "LazilyPersistentVector.java" 44]
   [clojure.core$vec invokeStatic "core.clj" 376]
   [clojure.walk$walk invokeStatic "walk.clj" 45]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2648]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -177,18 +177,18 @@ Exception Don't like :i
   [clojure.lang.RT next "RT.java" 688]
   [clojure.core$next__4336 invokeStatic "core.clj" 64]
   [clojure.core.protocols$fn__6751 invokeStatic "protocols.clj" 168]
-  [clojure.core.protocols$fn__6751 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6751 invoke "protocols.clj" 124]
   [clojure.core.protocols$fn__6706$G__6701__6715 invoke "protocols.clj" 19]
   [clojure.core.protocols$seq_reduce invokeStatic "protocols.clj" 31]
   [clojure.core.protocols$fn__6734 invokeStatic "protocols.clj" 75]
-  [clojure.core.protocols$fn__6734 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6734 invoke "protocols.clj" 75]
   [clojure.core.protocols$fn__6680$G__6675__6693 invoke "protocols.clj" 13]
   [clojure.core$reduce invokeStatic "core.clj" 6547]
   [clojure.core$into invokeStatic "core.clj" 6612]
   [clojure.walk$walk invokeStatic "walk.clj" 49]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2646]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -196,9 +196,9 @@ Exception Don't like :i
   [clojure.lang.LazilyPersistentVector create "LazilyPersistentVector.java" 44]
   [clojure.core$vec invokeStatic "core.clj" 376]
   [clojure.walk$walk invokeStatic "walk.clj" 45]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$mypre invokeStatic "core.clj" 13]
-  [st.core$mypre invoke "core.clj" -1]
+  [st.core$mypre invoke "core.clj" 9]
   [clojure.core$map$fn__4781 invoke "core.clj" 2648]
   [clojure.lang.LazySeq sval "LazySeq.java" 40]
   [clojure.lang.LazySeq seq "LazySeq.java" 49]
@@ -206,39 +206,39 @@ Exception Don't like :i
   [clojure.lang.RT next "RT.java" 688]
   [clojure.core$next__4336 invokeStatic "core.clj" 64]
   [clojure.core.protocols$fn__6751 invokeStatic "protocols.clj" 168]
-  [clojure.core.protocols$fn__6751 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6751 invoke "protocols.clj" 124]
   [clojure.core.protocols$fn__6706$G__6701__6715 invoke "protocols.clj" 19]
   [clojure.core.protocols$seq_reduce invokeStatic "protocols.clj" 31]
   [clojure.core.protocols$fn__6734 invokeStatic "protocols.clj" 75]
-  [clojure.core.protocols$fn__6734 invoke "protocols.clj" -1]
+  [clojure.core.protocols$fn__6734 invoke "protocols.clj" 75]
   [clojure.core.protocols$fn__6680$G__6675__6693 invoke "protocols.clj" 13]
   [clojure.core$reduce invokeStatic "core.clj" 6547]
   [clojure.core$into invokeStatic "core.clj" 6612]
   [clojure.walk$walk invokeStatic "walk.clj" 49]
-  [clojure.walk$walk invoke "walk.clj" -1]
+  [clojure.walk$walk invoke "walk.clj" 35]
   [st.core$do_it invokeStatic "core.clj" 19]
-  [st.core$do_it invoke "core.clj" -1]
-  [user$eval1243 invokeStatic "form-init4864907046100400621.clj" 1]
-  [user$eval1243 invoke "form-init4864907046100400621.clj" -1]
-  [clojure.lang.Compiler eval "Compiler.java" 6913]
-  [clojure.lang.Compiler eval "Compiler.java" 6876]
+  [st.core$do_it invoke "core.clj" 17]
+  [user$eval1245 invokeStatic "form-init3577496856474869552.clj" 1]
+  [user$eval1245 invoke "form-init3577496856474869552.clj" 1]
+  [clojure.lang.Compiler eval "Compiler.java" 6915]
+  [clojure.lang.Compiler eval "Compiler.java" 6878]
   [clojure.core$eval invokeStatic "core.clj" 3107]
-  [clojure.core$eval invoke "core.clj" -1]
+  [clojure.core$eval invoke "core.clj" 3103]
   [clojure.main$repl$read_eval_print__7402$fn__7405 invoke "main.clj" 240]
   [clojure.main$repl$read_eval_print__7402 invoke "main.clj" 240]
   [clojure.main$repl$fn__7411 invoke "main.clj" 258]
   [clojure.main$repl invokeStatic "main.clj" 258]
-  [clojure.main$repl doInvoke "main.clj" -1]
+  [clojure.main$repl doInvoke "main.clj" 174]
   [clojure.lang.RestFn invoke "RestFn.java" 1523]
   [clojure.tools.nrepl.middleware.interruptible_eval$evaluate$fn__637 invoke "interruptible_eval.clj" 58]
   [clojure.lang.AFn applyToHelper "AFn.java" 152]
   [clojure.lang.AFn applyTo "AFn.java" 144]
   [clojure.core$apply invokeStatic "core.clj" 645]
   [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1883]
-  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" -1]
+  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1883]
   [clojure.lang.RestFn invoke "RestFn.java" 425]
   [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invokeStatic "interruptible_eval.clj" 56]
-  [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" -1]
+  [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" 27]
   [clojure.tools.nrepl.middleware.interruptible_eval$interruptible_eval$fn__679$fn__682 invoke "interruptible_eval.clj" 191]
   [clojure.tools.nrepl.middleware.interruptible_eval$run_next$fn__674 invoke "interruptible_eval.clj" 159]
   [clojure.lang.AFn run "AFn.java" 22]
@@ -260,35 +260,35 @@ user=> e1
    :at [st.core$throwme invokeStatic "core.clj" 25]}]
  :trace
  [[st.core$throwme invokeStatic "core.clj" 25]
-  [st.core$throwme invoke "core.clj" -1]
+  [st.core$throwme invoke "core.clj" 25]
   [clojure.core$mapv$fn__6949 invoke "core.clj" 6629]
   [clojure.lang.PersistentVector reduce "PersistentVector.java" 341]
   [clojure.core$reduce invokeStatic "core.clj" 6546]
   [clojure.core$mapv invokeStatic "core.clj" 6620]
-  [clojure.core$mapv invoke "core.clj" -1]
+  [clojure.core$mapv invoke "core.clj" 6620]
   [st.core$mapvit invokeStatic "core.clj" 30]
-  [st.core$mapvit invoke "core.clj" -1]
-  [user$eval1245 invokeStatic "form-init8256092482768223965.clj" 1]
-  [user$eval1245 invoke "form-init8256092482768223965.clj" -1]
-  [clojure.lang.Compiler eval "Compiler.java" 6913]
-  [clojure.lang.Compiler eval "Compiler.java" 6876]
+  [st.core$mapvit invoke "core.clj" 29]
+  [user$eval1247 invokeStatic "form-init3577496856474869552.clj" 1]
+  [user$eval1247 invoke "form-init3577496856474869552.clj" 1]
+  [clojure.lang.Compiler eval "Compiler.java" 6915]
+  [clojure.lang.Compiler eval "Compiler.java" 6878]
   [clojure.core$eval invokeStatic "core.clj" 3107]
-  [clojure.core$eval invoke "core.clj" -1]
+  [clojure.core$eval invoke "core.clj" 3103]
   [clojure.main$repl$read_eval_print__7402$fn__7405 invoke "main.clj" 240]
   [clojure.main$repl$read_eval_print__7402 invoke "main.clj" 240]
   [clojure.main$repl$fn__7411 invoke "main.clj" 258]
   [clojure.main$repl invokeStatic "main.clj" 258]
-  [clojure.main$repl doInvoke "main.clj" -1]
+  [clojure.main$repl doInvoke "main.clj" 174]
   [clojure.lang.RestFn invoke "RestFn.java" 1523]
   [clojure.tools.nrepl.middleware.interruptible_eval$evaluate$fn__637 invoke "interruptible_eval.clj" 58]
   [clojure.lang.AFn applyToHelper "AFn.java" 152]
   [clojure.lang.AFn applyTo "AFn.java" 144]
   [clojure.core$apply invokeStatic "core.clj" 645]
   [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1883]
-  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" -1]
+  [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1883]
   [clojure.lang.RestFn invoke "RestFn.java" 425]
   [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invokeStatic "interruptible_eval.clj" 56]
-  [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" -1]
+  [clojure.tools.nrepl.middleware.interruptible_eval$evaluate invoke "interruptible_eval.clj" 27]
   [clojure.tools.nrepl.middleware.interruptible_eval$interruptible_eval$fn__679$fn__682 invoke "interruptible_eval.clj" 191]
   [clojure.tools.nrepl.middleware.interruptible_eval$run_next$fn__674 invoke "interruptible_eval.clj" 159]
   [clojure.lang.AFn run "AFn.java" 22]
